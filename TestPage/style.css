@@ -1,0 +1,35 @@
+body {
+    padding-top: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-family: "Xanh Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: linen;
+
+}
+
+
+h1 {
+    color: linen;
+}
+
+h2 {
+    color: linen;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+a {
+    background-color: linen;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
