@@ -1,0 +1,50 @@
+body{
+    margin: 100px 0px;
+    background-color: #1c2840;
+  font-family: "Manjari", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    padding: 15px 32px;
+    margin: 10px;
+    background-color: rgb(220, 141, 38);
+    color: white;
+    cursor: grab;
+    font-size: 15px;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    border: none;
+}
+
+.project_container{
+    display:flex;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+    color: #f5f5dc;
+    margin-top: 400px;
+}
+
+
+
+img{
+    display: block;
+    margin: auto;
+    height: 300px;
+}
+
+#asleep{
+    padding: 300px 0px;
+}
+
+.ending{
+    color: #1c2840;
+}
