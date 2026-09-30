@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FINDERS GATEKEEPERS</title>
+</head>
+
+<body>
+    <h1>FINDERS </br> GATEKEEPERS</h1>
+    <h2>FOR YOU AND YOU ONLY TO ENJOY.</h2>
+    <h2>Tell us your favorite spot. We'll come up a bad review that you can submit to keep their ratings low. Then
+        you'll never have to worry about long lines, or the staff being overworked! </h2>
+
+    <form id="section-form" action="/action_page.php">
+
+        <div>
+            <!-- <button id="bad-button">SEND THEM A BAD REVIEW</button> -->
+            <!-- <button id="good-button">SEND A GOOD REVIEW TO A COMPETITOR</button> -->
+
+            <fieldset>
+                <legend>CHOOSE A CATEGORY TO PICK ON: </legend>
+                <input type="radio" id="food" name="Category" value="food" required />
+                <label for="Food">Food</label>
+
+                <input type="radio" id="service" name="Category" value="service" />
+                <label for="Service">Service</label>
+
+                <input type="radio" id="hygiene" name="Category" value="hygiene" />
+                <label for="Hygiene">Hygiene</label>
+
+                <input type="radio" id="ambiance" name="Category" value="ambiance" />
+                <label for="Ambiance">Ambiance</label>
+            </fieldset>
+            <fieldset>
+                <legend>HOW SCATHING SHOULD THE REVIEW BE?</legend>
+
+                <input type="radio" id="moderate" name="Rating" value="moderate" required />
+                <label for="Moderate">Moderate</label>
+
+                <input type="radio" id="strong" name="Rating" value="strong" />
+                <label for="Strong">Strong</label>
+
+                <input type="radio" id="superfluous" name="Rating" value="superfluous" />
+                <label for="Superfluous">Superfluous</label>
+            </fieldset>
+
+
+
+
+
+            <!-- <h3>Lastly...</h3> -->
+
+
+            <input type="text" placeholder="Type in the spot you'd like to gatekeep <3" id="homepage" name="homepage"
+                required>
+            <input id="button" type="submit" value="GENERATE REVIEW">
+        </div>
+    </form>
+    <div id="results"></div>
+    <button id="copy-button" type="button" hidden>COPY TO CLIPBOARD</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

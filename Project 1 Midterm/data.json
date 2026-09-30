@@ -1,0 +1,33 @@
+{
+  "intros":{
+    "moderate": "was underwhelming",
+    "strong": "was a total letdown",
+    "superfluous": "was abysmal, a disgrace to humanity"
+  },
+  "reviews": [
+    {
+      "category": "service",
+      "moderate": "mid at best, they don't really acknowledge you",
+      "strong": "horrible. They were slow, and their ordering kiosks are even slower. The service is beyond repair",
+      "superfluous": "atrocious. They got our order wrong 4 times, I don't even know how that's possible"
+    },
+    {
+      "category": "food",
+      "moderate": "not impressive, quite forgettable, and cold",
+      "strong": "over-cooked and under-seasoned, blander than communion bread",
+      "superfluous": "gag-inducing. I could not keep it down, so I fed it to the cats"
+    },
+    {
+      "category": "hygiene",
+      "moderate": "not the best",
+      "strong": "lacking, I found a hair in my food",
+      "superfluous": "digusting. It was reeking of sewage — like Old Spice, but really, really old. Centuries old"
+    },
+    {
+      "category": "ambiance",
+      "moderate": "unsophisticated, so not tea",
+      "strong": "distasteful, looked like my nan's home from the 80s",
+      "superfluous": "appalling. A small part of me died every second I spent in there. Who did they hire to do this? A 3 year old?! Anyways"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+body {
+    font-family: "Fragment Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(195, 215, 157);
+    padding: 2em 2em;
+    margin: 2em 25em;
+    letter-spacing: -0.05rem;
+    border-style: solid;
+    border-width: 2px;
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 80px;
+    line-height: 70px;
+}
+
+
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+div {
+    padding-top: 40px;
+}
+
+input {
+    padding: 20px;
+    font-family: "Fragment Mono", monospace;
+    border-radius: 30px;
+    background-color: rgb(195, 215, 157);
+    margin-bottom: 20px;
+}
+
+input:hover {
+    padding: 20px;
+    font-family: "Fragment Mono", monospace;
+    border-radius: 30px;
+    background-color: rgb(225, 236, 207);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 360px;
+    background-color: rgb(195, 215, 157);
+    cursor: text;
+    margin-top: 30px;
+
+}
+
+legend{
+    padding-top: 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+
+button {
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(195, 215, 157);
+    font-family: "Fragment Mono", monospace;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: rgb(178, 199, 138);
+}
+
+#copy-button{
+    margin-top: 20px;
+
+}
