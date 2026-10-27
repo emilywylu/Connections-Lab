@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    </link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <title>synergies</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- View chat messages here here -->
+        <div class="sub-container chat-feed">
+            <div class="chat-header">synergies</div>
+            <div class="instructions">a word association game for two players.</div>
+            <div class="chat-box" id="chat-box-msgs"></div>
+        </div>
+
+        <!-- Join the game -->
+        <div class="sub-container chat-input" id="join-section">
+            <input type="text" class="chat-input-name" id="name-input" placeholder="Your Name" />
+            <button id="join-button">Join Game</button>
+        </div>
+
+        <!-- Enter words here (hidden until players joined) -->
+        <div class="sub-container chat-input" id="word-section" style="display:none;">
+            <input type="text" class="chat-input-msg" id="msg-input" placeholder="Your word" />
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
